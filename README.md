@@ -38,7 +38,7 @@ This project is a React-based web application that visualizes temperature data r
    ```
 2. Navigate to the project directory:
    ```sh
-   cd temperature-visualization-app
+   cd project name 
    ```
 3. Install the dependencies:
    ```sh
@@ -104,12 +104,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Socket.IO](https://socket.io/)
 ```
 
-Simply copy and paste the above content into your README file.
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
