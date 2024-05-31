@@ -1,6 +1,5 @@
 
 
-https://github.com/hrishikesh1427/React-three-fiber/assets/84369074/3bd2e267-9155-4c6d-b1e2-3fac2bfc7710
 
 
 
