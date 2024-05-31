@@ -1,5 +1,91 @@
-/* *{
- 
-  background-color: rgb(172, 167, 167);
-} */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif; /* Changed font to Roboto */
+}
 
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #1e1e1e;
+  padding: 20px; /* Added padding */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.canvas-container {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 100%; /* Adjusted width to be 100% */
+  max-width: 800px; /* Added max-width for responsiveness */
+  height: 60vh; /* Adjusted height */
+  background-color: #2e2e2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.select-container {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.select-label {
+  color: #ffffff; /* White text color */
+  margin-right: 10px;
+  font-size: 18px; /* Increased font size */
+  font-weight: bold;
+}
+
+.select-container select {
+  padding: 8px 12px; /* Adjusted padding */
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #333;
+  color: #ffffff; /* White text color */
+  border: 1px solid #666;
+}
+
+.select-container select:hover {
+  background-color: #444;
+}
+
+.select-container select:focus {
+  outline: none;
+  border-color: #999;
+}
+
+
+.legend-container {
+  border-radius: 10px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start; /* Align items to the start */
+  color: #ffffff;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+}
+
+.color-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+.legend-item span {
+  font-size: 16px;
+  margin-left: 10px; /* Add spacing between color box and text */
+}
