@@ -3,7 +3,7 @@
 https://github.com/hrishikesh1427/React-three-fiber/assets/84369074/3bd2e267-9155-4c6d-b1e2-3fac2bfc7710
 
 
-![3dmodelUIsnippet](https://github.com/hrishikesh1427/React-three-fiber/assets/84369074/efb1783c-c88b-464c-a9cf-7fc5ed0d8697)
+
 
 
 Sure, here is the complete README file in the requested format:
